@@ -20,3 +20,4 @@
 *.db-wal
 *.opendb
 *.suo
+*.user
