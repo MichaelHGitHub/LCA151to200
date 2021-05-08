@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "154_Min_in_Rotated_Sorted_A
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "160_Joint_of_2_LinkedLists", "160_Joint_of_2_LinkedLists\160_Joint_of_2_LinkedLists.vcxproj", "{C0CC84A3-FA40-48B6-9FBA-408C7135375F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "162_Find_Peak_Element", "162_Find_Peak_Element\162_Find_Peak_Element.vcxproj", "{2E1476E4-40F3-44A3-A2BF-111F3AFC4BD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{C0CC84A3-FA40-48B6-9FBA-408C7135375F}.Release|x64.Build.0 = Release|x64
 		{C0CC84A3-FA40-48B6-9FBA-408C7135375F}.Release|x86.ActiveCfg = Release|Win32
 		{C0CC84A3-FA40-48B6-9FBA-408C7135375F}.Release|x86.Build.0 = Release|Win32
+		{2E1476E4-40F3-44A3-A2BF-111F3AFC4BD9}.Debug|x64.ActiveCfg = Debug|x64
+		{2E1476E4-40F3-44A3-A2BF-111F3AFC4BD9}.Debug|x64.Build.0 = Debug|x64
+		{2E1476E4-40F3-44A3-A2BF-111F3AFC4BD9}.Debug|x86.ActiveCfg = Debug|Win32
+		{2E1476E4-40F3-44A3-A2BF-111F3AFC4BD9}.Debug|x86.Build.0 = Debug|Win32
+		{2E1476E4-40F3-44A3-A2BF-111F3AFC4BD9}.Release|x64.ActiveCfg = Release|x64
+		{2E1476E4-40F3-44A3-A2BF-111F3AFC4BD9}.Release|x64.Build.0 = Release|x64
+		{2E1476E4-40F3-44A3-A2BF-111F3AFC4BD9}.Release|x86.ActiveCfg = Release|Win32
+		{2E1476E4-40F3-44A3-A2BF-111F3AFC4BD9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
