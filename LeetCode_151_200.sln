@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "167_Two_Sum_II_sorted_array
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "168_Excel_Sheet_Column_Title", "168_Excel_Sheet_Column_Title\168_Excel_Sheet_Column_Title.vcxproj", "{F125D00B-80CB-44C4-82CE-F07A24A6C58D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "169_Majority_Element", "169_Majority_Element\169_Majority_Element.vcxproj", "{FDFE46B7-489A-4C9B-A87C-F3632EAB7BD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{F125D00B-80CB-44C4-82CE-F07A24A6C58D}.Release|x64.Build.0 = Release|x64
 		{F125D00B-80CB-44C4-82CE-F07A24A6C58D}.Release|x86.ActiveCfg = Release|Win32
 		{F125D00B-80CB-44C4-82CE-F07A24A6C58D}.Release|x86.Build.0 = Release|Win32
+		{FDFE46B7-489A-4C9B-A87C-F3632EAB7BD8}.Debug|x64.ActiveCfg = Debug|x64
+		{FDFE46B7-489A-4C9B-A87C-F3632EAB7BD8}.Debug|x64.Build.0 = Debug|x64
+		{FDFE46B7-489A-4C9B-A87C-F3632EAB7BD8}.Debug|x86.ActiveCfg = Debug|Win32
+		{FDFE46B7-489A-4C9B-A87C-F3632EAB7BD8}.Debug|x86.Build.0 = Debug|Win32
+		{FDFE46B7-489A-4C9B-A87C-F3632EAB7BD8}.Release|x64.ActiveCfg = Release|x64
+		{FDFE46B7-489A-4C9B-A87C-F3632EAB7BD8}.Release|x64.Build.0 = Release|x64
+		{FDFE46B7-489A-4C9B-A87C-F3632EAB7BD8}.Release|x86.ActiveCfg = Release|Win32
+		{FDFE46B7-489A-4C9B-A87C-F3632EAB7BD8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
