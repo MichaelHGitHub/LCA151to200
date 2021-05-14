@@ -1810,7 +1810,7 @@ void CheckResults(TD_VI_I_VI testData, vector<int> result)
     {
         std::cout << "***Failed!***" << endl;
         std::cout << "Expect :";
-        PrintData(result);
+        PrintData(testData.output);
         std::cout << endl;
     }
 
