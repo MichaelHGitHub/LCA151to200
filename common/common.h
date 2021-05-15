@@ -543,6 +543,12 @@ struct TD_VL_L
     ListNode* output;
 };
 
+struct TD_VVC_I
+{
+    vector<vector<char>> input;
+    int output;
+};
+
 struct TD_VVC_B
 {
     vector<vector<char>> input;
@@ -681,6 +687,8 @@ void CheckResults_Unorder(TD_VI_I_VVI testData, vector<vector<int>> result);
 void PrintInput(TD_VVC_B testData);
 void CheckResults(TD_VVC_B testData, bool result);
 
+void PrintInput(TD_VVC_I testData);
+void CheckResults(TD_VVC_I testData, int result);
 
 void PrintInput(TD_VVC_S_B testData);
 void CheckResults(TD_VVC_S_B testData, bool result);
