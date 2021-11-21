@@ -4,6 +4,10 @@ void PrepareTestData(vector<TD_S_S>& testData)
 {
     TD_S_S data;
 
+    data.input = "EPY2giL";
+    data.output = "EPY2giL";
+    testData.push_back(data);
+
     data.input = "F R  I   E    N     D      S      ";
     data.output = "S D N E I R F";
     testData.push_back(data);
