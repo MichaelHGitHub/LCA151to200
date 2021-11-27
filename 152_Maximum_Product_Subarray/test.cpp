@@ -4,6 +4,10 @@ void PrepareTestData(vector<TD_VI_I>& testData)
 {
     TD_VI_I data;
 
+    data.input = { -2, 3, -4 };
+    data.output = 24;
+    testData.push_back(data);
+
     data.input = { 0,2 };
     data.output = 2;
     testData.push_back(data);
