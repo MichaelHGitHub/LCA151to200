@@ -1,6 +1,7 @@
 #include "header.h"
 
-// As nums[i] != nums[i+1], it is guarenteed to have at least one answer
+// As nums[i] != nums[i+1] and nums[-1] = nums[n] = -infinite,
+// it is guarenteed to have at least one answer
 // Using binary search, if nums[mid] > nums[mid+1], there must be an answer
 // lies in the left part, otherwise, at least one answer lies in the right 
 // half. 
