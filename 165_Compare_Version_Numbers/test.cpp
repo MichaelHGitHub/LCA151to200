@@ -4,6 +4,11 @@ void PrepareTestData(vector<TD_S_S_I>& testData)
 {
     TD_S_S_I data;
 
+    data.input = "1.0.1";
+    data.input2 = "1";
+    data.output = 1;
+    testData.push_back(data);
+
     data.input = "1.2";
     data.input2 = "1.10";
     data.output = -1;
