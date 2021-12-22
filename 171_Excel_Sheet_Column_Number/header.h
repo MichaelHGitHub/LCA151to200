@@ -5,3 +5,5 @@
 void PrepareTestData(vector<TD_S_I>& testData);
 
 int titleToNumber(string columnTitle);
+
+int titleToNumber_r(string columnTitle);
