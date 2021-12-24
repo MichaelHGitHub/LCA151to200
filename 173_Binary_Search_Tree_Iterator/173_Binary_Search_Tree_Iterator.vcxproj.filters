@@ -29,5 +29,8 @@
     <ClInclude Include="..\common\common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="revisit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
