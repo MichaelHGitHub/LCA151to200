@@ -1,5 +1,12 @@
 #include "header.h"
 
+// Use bit operations, swap bit values from two ends toward the middle.
+// steps:
+// 1. start with i = 0, j = 31.
+// 2. get the bit value at postion i and j;
+// 3. erase bit value at postion i and j;
+// 4. put bit value(i) to postion j, and value(j) to postion i.
+// 5. increase i and decrease j and do it again, until j<=i.
 uint32_t reverseBits(uint32_t n)
 {
     uint32_t result = n;
