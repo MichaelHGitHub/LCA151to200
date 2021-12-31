@@ -6,3 +6,5 @@
 void PrepareTestData(vector<TD_I_I> & testData); 
 
 int hammingWeight(uint32_t n);
+
+int hammingWeight_r(uint32_t n);
