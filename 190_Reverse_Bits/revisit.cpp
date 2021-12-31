@@ -3,18 +3,20 @@
 uint32_t reverseBits_r(uint32_t n)
 {
     uint32_t result = 0;
-    string bi_string;
+    string bi_string(32, '0');
+    int pos = 0;
 
     // Build the binary string ( in reverse order, no need
     // to reverse for the result).
     while (n > 0)
     {
-        bi_string.append(n % 2 == 1 ? "1": "0");
+        if (n % 2 == 1)
+        {
+            bi_string[pos] = '1';
+        }
+        ++pos;
         n /= 2;
     }
-
-    // if the string is short than 32, add '0' at the end.
-    bi_string.append(32 - bi_string.length(), '0');
 
     // Convert binary string to uint value
     uint32_t seed = 0;
